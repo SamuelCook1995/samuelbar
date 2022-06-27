@@ -1,0 +1,105 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+   color: white;
+}
+header{
+    text-align: center;
+    margin-top: 25px;
+
+}
+body{
+    
+    background-image: linear-gradient(to top, #000000dc, #5c5656);
+}
+
+#principal{
+    display: flex;
+  
+}
+
+nav{
+   margin: 20px 20px 0px; 
+   text-align: center;
+   
+}
+.nav{
+    margin-top: 100px;
+    color: rgba(255, 255, 255, 0.692);
+    text-decoration: none;
+    padding: 10px 30px 10px;
+    border-radius: 10px;
+}
+.nav:hover {
+    background: white;
+    color: black;
+    transition: 1s;
+}
+
+
+
+#formulario{
+   margin: 28px 100px;
+}
+
+.form{
+    padding: 10px;
+    border-radius: 7px;
+    width: 350px;
+    text-align: center;
+    color: black;
+    background-color: transparent;
+
+}
+.form:hover{
+    background:rgba(0, 0, 0, 0.411) ;
+    color: white;
+    transition: 1.2s;    
+}
+button{
+    display: block;
+    margin: 0 auto;
+    border: none;
+    
+}
+
+#ladodireito{
+    margin: 30px 120px;
+}
+
+.carrocel{
+    box-shadow: 2px 2px 4px black;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 400px;
+    width: 550px;
+}
+.container{
+    display: flex;
+    transition: transform 0.8s ease-in-out;
+    transform: translateX(0);
+}
+img{
+   object-fit: cover;
+    height: 400px;
+    width: 600px;
+}
+
+#imgtitulo{
+    text-align: center;
+    padding-bottom: 25px;
+}
+#imgprincipal{
+
+  
+display: grid;
+grid-template-columns: repeat(4,1fr);
+  
+   
+}
+#imagens{
+
+    position: relative;
+}
+
